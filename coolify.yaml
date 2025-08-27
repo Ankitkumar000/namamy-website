@@ -1,0 +1,108 @@
+# Coolify Configuration for Namamy E-commerce
+version: '1.0'
+
+services:
+  - name: namamy-app
+    type: application
+    source:
+      type: git
+      repository: https://github.com/YOUR_USERNAME/namamy-ecommerce
+      branch: main
+    build:
+      dockerfile: Dockerfile
+      context: .
+      buildArgs:
+        NODE_ENV: production
+    ports:
+      - port: 3000
+        expose: true
+    healthcheck:
+      path: /api/health
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    resources:
+      limits:
+        memory: 1024Mi
+        cpu: 500m
+      requests:
+        memory: 512Mi
+        cpu: 250m
+    environment:
+      - name: NODE_ENV
+        value: production
+      - name: PORT
+        value: "3000"
+      - name: NEXT_PUBLIC_BASE_URL
+        value: https://namamy.com
+    volumes:
+      - name: uploads
+        path: /app/public/images/products/uploads
+        size: 5Gi
+      - name: logs
+        path: /var/log/namamy
+        size: 1Gi
+
+  - name: namamy-db
+    type: postgresql
+    version: "15"
+    database: namamy_production
+    username: namamy_user
+    resources:
+      limits:
+        memory: 512Mi
+        cpu: 250m
+      requests:
+        memory: 256Mi
+        cpu: 100m
+    volumes:
+      - name: postgres-data
+        path: /var/lib/postgresql/data
+        size: 10Gi
+    backup:
+      enabled: true
+      schedule: "0 2 * * *" # Daily at 2 AM
+      retention: 7 # Keep 7 days of backups
+
+domains:
+  - domain: namamy.com
+    service: namamy-app
+    port: 3000
+    ssl:
+      enabled: true
+      provider: letsencrypt
+  - domain: www.namamy.com
+    service: namamy-app
+    port: 3000
+    ssl:
+      enabled: true
+      provider: letsencrypt
+    redirect_to: namamy.com
+
+networks:
+  - name: namamy-network
+    driver: bridge
+
+monitoring:
+  enabled: true
+  metrics:
+    - cpu
+    - memory
+    - disk
+    - network
+  alerts:
+    - name: high-cpu
+      condition: cpu > 80
+      duration: 5m
+    - name: high-memory
+      condition: memory > 85
+      duration: 3m
+    - name: disk-space
+      condition: disk > 90
+      duration: 1m
+
+deployment:
+  strategy: rolling
+  max_unavailable: 0
+  max_surge: 1
+  health_check_grace_period: 60s
