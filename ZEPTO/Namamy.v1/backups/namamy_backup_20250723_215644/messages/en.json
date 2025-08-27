@@ -1,0 +1,925 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "success": "Success!",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "clear": "Clear",
+    "apply": "Apply",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "showLess": "Show Less",
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "outOfStock": "Out of Stock",
+    "inStock": "In Stock",
+    "free": "Free",
+    "new": "New",
+    "sale": "Sale",
+    "bestSeller": "Best Seller",
+    "featured": "Featured"
+  },
+  "header": {
+    "nav": {
+      "home": "Home",
+      "shop": "Shop",
+      "about": "About",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "userMenu": {
+      "account": "My Account",
+      "orders": "My Orders",
+      "wishlist": "Wishlist",
+      "login": "Sign In",
+      "signup": "Sign Up"
+    },
+    "search": "Search products..."
+  },
+  "navigation": {
+    "home": "Home",
+    "shop": "Shop",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact",
+    "blog": "Blog",
+    "cart": "Cart",
+    "account": "Account",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "orders": "Orders",
+    "wishlist": "Wishlist",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "whyChooseUs": "Why Choose Us",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "press": "Press"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "homepage": {
+    "hero": {
+      "title": "Premium Makhana for Healthy Living",
+      "subtitle": "Discover the finest quality fox nuts, roasted to perfection and packed with nutrition for your wellness journey.",
+      "cta": "Shop Now",
+      "watchVideo": "Watch Our Story",
+      "trustBadge": "Trusted by 50,000+ customers"
+    },
+    "features": {
+      "title": "Why Choose Namamy?",
+      "subtitle": "We're committed to bringing you the best quality makhana with uncompromising standards",
+      "highQuality": {
+        "title": "Premium Quality",
+        "description": "Hand-picked fox nuts roasted to perfection with traditional methods"
+      },
+      "healthy": {
+        "title": "100% Natural",
+        "description": "No artificial preservatives, colors, or additives - just pure goodness"
+      },
+      "fresh": {
+        "title": "Always Fresh",
+        "description": "Delivered fresh from our facilities with guaranteed freshness"
+      },
+      "sustainable": {
+        "title": "Ethically Sourced",
+        "description": "Supporting local farmers with fair trade practices"
+      }
+    },
+    "categories": {
+      "title": "Shop by Category",
+      "subtitle": "Explore our diverse range of premium makhana varieties"
+    },
+    "products": {
+      "title": "Best Sellers",
+      "subtitle": "Discover our most loved makhana varieties, trusted by thousands of happy customers"
+    },
+    "testimonials": {
+      "title": "What Our Customers Say",
+      "subtitle": "Join thousands of satisfied customers who've made the healthy choice"
+    },
+    "healthBenefits": {
+      "title": "Health Benefits of Makhana",
+      "subtitle": "Packed with nutrients and health benefits for your wellbeing",
+      "benefits": [
+        {
+          "title": "High Protein",
+          "description": "Rich in plant-based protein, perfect for muscle building and repair"
+        },
+        {
+          "title": "Low Calories",
+          "description": "Guilt-free snacking with only 347 calories per 100g"
+        },
+        {
+          "title": "High Fiber",
+          "description": "Promotes digestive health and keeps you feeling full longer"
+        },
+        {
+          "title": "Rich in Antioxidants",
+          "description": "Helps fight free radicals and supports overall health"
+        }
+      ]
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "subtitle": "Get the latest news, offers, and health tips delivered to your inbox",
+      "placeholder": "Enter your email address",
+      "subscribe": "Subscribe Now",
+      "success": "Thank you for subscribing!"
+    }
+  },
+  "shop": {
+    "title": "Premium Makhana Collection",
+    "description": "Discover our range of healthy, roasted, and flavored fox nuts perfect for snacking and wellness.",
+    "searchPlaceholder": "Search for products...",
+    "filters": "Filters",
+    "clearFilters": "Clear Filters",
+    "resultsCount": "Showing {count} products",
+    "noProductsFound": "No products found",
+    "noProductsDescription": "Try adjusting your filters or search terms.",
+    "loadMore": "Load More Products",
+    "filters": {
+      "title": "Filters",
+      "categories": "Categories",
+      "allCategories": "All Categories",
+      "priceRange": "Price Range",
+      "under200": "Under ₹200",
+      "200to400": "₹200 - ₹400",
+      "400to600": "₹400 - ₹600",
+      "above600": "Above ₹600",
+      "customerRating": "Customer Rating",
+      "andUp": "& Up",
+      "availability": "Availability",
+      "inStockOnly": "In Stock Only"
+    },
+    "sort": {
+      "relevance": "Relevance",
+      "newest": "Newest First",
+      "priceLowToHigh": "Price: Low to High",
+      "priceHighToLow": "Price: High to Low",
+      "topRated": "Top Rated",
+      "mostPopular": "Most Popular",
+      "nameAtoZ": "Name: A to Z"
+    }
+  },
+  "product": {
+    "new": "New",
+    "bestSeller": "Best Seller",
+    "outOfStock": "Out of Stock",
+    "addToCart": "Add to Cart",
+    "per": "per",
+    "reviews": "reviews",
+    "price": "Price per",
+    "inclusive": "Inclusive of all taxes",
+    "inStock": "In Stock",
+    "available": "available",
+    "quantity": "Quantity",
+    "features": {
+      "freeDelivery": "Free Delivery",
+      "freeDeliveryDesc": "On orders above ₹500",
+      "qualityAssured": "Quality Assured",
+      "qualityAssuredDesc": "Premium quality guaranteed",
+      "easyReturns": "Easy Returns",
+      "easyReturnsDesc": "7-day return policy"
+    },
+    "tabs": {
+      "description": "Description",
+      "nutrition": "Nutrition",
+      "ingredients": "Ingredients",
+      "reviews": "Reviews"
+    },
+    "details": {
+      "weight": "Weight",
+      "sku": "SKU",
+      "shelfLife": "Shelf Life",
+      "storage": "Storage",
+      "description": "Description",
+      "ingredients": "Ingredients",
+      "nutrition": "Nutrition Facts",
+      "reviews": "Reviews",
+      "shipping": "Shipping Info",
+      "return": "Return Policy",
+      "addToCart": "Add to Cart",
+      "addToWishlist": "Add to Wishlist",
+      "removeFromWishlist": "Remove from Wishlist",
+      "quantity": "Quantity",
+      "weight": "Weight",
+      "sku": "SKU",
+      "category": "Category",
+      "tags": "Tags",
+      "share": "Share",
+      "compare": "Compare",
+      "askQuestion": "Ask a Question",
+      "sizeGuide": "Size Guide",
+      "bulkOrder": "Bulk Order",
+      "nutritionPer100g": "Nutrition Facts (per 100g)",
+      "allergenInfo": "Allergen Information",
+      "storageInstructions": "Storage Instructions",
+      "shelfLife": "Shelf Life",
+      "relatedProducts": "Related Products",
+      "customerPhotos": "Customer Photos"
+    },
+    "nutrition": {
+      "basic": "Basic Nutrition",
+      "minerals": "Minerals",
+      "other": "Other",
+      "calories": "Calories",
+      "protein": "Protein",
+      "totalFat": "Total Fat",
+      "carbs": "Total Carbs",
+      "calcium": "Calcium",
+      "iron": "Iron",
+      "potassium": "Potassium",
+      "sodium": "Sodium",
+      "fiber": "Dietary Fiber",
+      "sugars": "Total Sugars",
+      "cholesterol": "Cholesterol"
+    },
+    "ingredientsList": "Ingredients List",
+    "allergens": "Allergens",
+    "reviewsComingSoon": "Reviews Coming Soon",
+    "reviewsComingSoonDesc": "Customer reviews will be available soon.",
+    "relatedProducts": "Related Products",
+    "relatedProductsDesc": "You might also like these products",
+    "recentlyViewed": "Recently Viewed",
+    "recentlyViewedDesc": "Products you've viewed recently",
+    "reviews": {
+      "title": "Customer Reviews",
+      "writeReview": "Write a Review",
+      "rating": "Rating",
+      "comment": "Your Review",
+      "name": "Your Name",
+      "email": "Your Email",
+      "submit": "Submit Review",
+      "helpful": "Helpful",
+      "notHelpful": "Not Helpful",
+      "verified": "Verified Purchase",
+      "noReviews": "No reviews yet",
+      "beFirst": "Be the first to review this product",
+      "overallRating": "Overall Rating",
+      "reviewBreakdown": "Review Breakdown",
+      "recommendProduct": "Would you recommend this product?",
+      "uploadPhotos": "Upload Photos (Optional)"
+    }
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "itemsInCart": "{count} items in your cart",
+    "emptyCart": "Your cart is empty",
+    "emptyCartDesc": "Looks like you haven't added any products to your cart yet.",
+    "continueShopping": "Continue Shopping",
+    "remove": "Remove",
+    "couponCode": "Coupon Code",
+    "enterCouponCode": "Enter coupon code",
+    "apply": "Apply",
+    "invalidCouponCode": "Invalid coupon code",
+    "couponError": "Error applying coupon",
+    "orderSummary": "Order Summary",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "shipping": "Shipping",
+    "tax": "Tax (GST)",
+    "total": "Total",
+    "free": "FREE",
+    "proceedToCheckout": "Proceed to Checkout",
+    "secureCheckout": "Secure checkout powered by SSL encryption",
+    "shippingInfo": "Shipping Information",
+    "freeShippingAbove500": "Free shipping on orders above ₹500",
+    "deliveryTime": "2-5 business days delivery",
+    "cashOnDelivery": "Cash on delivery available",
+    "empty": "Your cart is empty",
+    "item": "Item",
+    "quantity": "Quantity",
+    "price": "Price",
+    "grandTotal": "Grand Total",
+    "update": "Update Cart",
+    "applyCoupon": "Apply Coupon",
+    "removeCoupon": "Remove Coupon",
+    "freeShipping": "Free shipping on orders over ₹500",
+    "estimatedDelivery": "Estimated Delivery",
+    "saveForLater": "Save for Later",
+    "moveToWishlist": "Move to Wishlist",
+    "recentlyViewed": "Recently Viewed",
+    "recommendedProducts": "Recommended for You"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "steps": {
+      "shipping": "Shipping",
+      "payment": "Payment",
+      "review": "Review & Place Order"
+    },
+    "shipping": {
+      "title": "Shipping Information",
+      "newAddress": "Add New Address",
+      "selectAddress": "Select Delivery Address",
+      "deliveryOptions": "Delivery Options",
+      "standardDelivery": "Standard Delivery (3-5 days)",
+      "expressDelivery": "Express Delivery (1-2 days)",
+      "sameDay": "Same Day Delivery"
+    },
+    "payment": {
+      "title": "Payment Method",
+      "selectMethod": "Select Payment Method",
+      "cardNumber": "Card Number",
+      "expiryDate": "Expiry Date",
+      "cvv": "CVV",
+      "nameOnCard": "Name on Card",
+      "upi": "UPI Payment",
+      "netBanking": "Net Banking",
+      "wallet": "Digital Wallet",
+      "cod": "Cash on Delivery",
+      "securePayment": "Your payment information is secure and encrypted"
+    },
+    "review": {
+      "title": "Review Your Order",
+      "orderSummary": "Order Summary",
+      "shippingAddress": "Shipping Address",
+      "paymentMethod": "Payment Method",
+      "placeOrder": "Place Order",
+      "termsAgree": "I agree to the Terms & Conditions and Privacy Policy",
+      "finalTotal": "Final Total"
+    },
+    "success": {
+      "title": "Order Placed Successfully!",
+      "message": "Thank you for your order. We'll send you a confirmation email shortly.",
+      "orderNumber": "Order Number",
+      "trackOrder": "Track Your Order",
+      "continueShop": "Continue Shopping",
+      "estimatedDelivery": "Estimated Delivery Date"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your account to continue",
+      "email": "Email Address",
+      "password": "Password",
+      "forgotPassword": "Forgot Password?",
+      "signIn": "Sign In",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up here",
+      "orContinueWith": "Or continue with",
+      "google": "Continue with Google",
+      "facebook": "Continue with Facebook"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join Namamy family for healthy snacking",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number (Optional)",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "createAccount": "Create Account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in here",
+      "terms": "I agree to the Terms & Conditions and Privacy Policy",
+      "newsletter": "Subscribe to our newsletter for offers and updates"
+    },
+    "forgotPassword": {
+      "title": "Reset Password",
+      "subtitle": "Enter your email to receive reset instructions",
+      "email": "Email Address",
+      "sendReset": "Send Reset Link",
+      "backToLogin": "Back to Login",
+      "success": "Reset link sent to your email"
+    }
+  },
+  "dashboard": {
+    "title": "My Account",
+    "welcome": "Welcome back",
+    "menu": {
+      "overview": "Overview",
+      "orders": "My Orders",
+      "wishlist": "Wishlist",
+      "addresses": "Addresses",
+      "profile": "Profile Settings",
+      "notifications": "Notifications",
+      "loyalty": "Loyalty Points",
+      "support": "Help & Support"
+    },
+    "overview": {
+      "totalOrders": "Total Orders",
+      "totalSpent": "Total Spent",
+      "loyaltyPoints": "Loyalty Points",
+      "savedItems": "Saved Items",
+      "recentOrders": "Recent Orders",
+      "recommendedProducts": "Recommended for You"
+    },
+    "orders": {
+      "title": "Order History",
+      "orderNumber": "Order #",
+      "date": "Date",
+      "status": "Status",
+      "total": "Total",
+      "items": "Items",
+      "viewDetails": "View Details",
+      "trackOrder": "Track Order",
+      "reorder": "Reorder",
+      "downloadInvoice": "Download Invoice",
+      "cancelOrder": "Cancel Order",
+      "returnOrder": "Return Order",
+      "noOrders": "No orders found",
+      "filterByStatus": "Filter by Status"
+    },
+    "profile": {
+      "title": "Profile Settings",
+      "personalInfo": "Personal Information",
+      "contactInfo": "Contact Information",
+      "preferences": "Preferences",
+      "security": "Security Settings",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "dateOfBirth": "Date of Birth",
+      "gender": "Gender",
+      "language": "Preferred Language",
+      "currency": "Currency",
+      "notifications": "Email Notifications",
+      "smsAlerts": "SMS Alerts",
+      "changePassword": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmNewPassword": "Confirm New Password",
+      "updateProfile": "Update Profile",
+      "deleteAccount": "Delete Account"
+    }
+  },
+  "footer": {
+    "brandDescription": "Namamy brings you the finest quality makhana (fox nuts) sourced directly from the lotus farms of Bihar. Our premium snacks are roasted to perfection, ensuring maximum nutrition and irresistible taste.",
+    "company": "Company",
+    "products": "Products",
+    "support": "Support",
+    "legal": "Legal",
+    "links": {
+      "about": "About Us",
+      "whyNamamy": "Why Namamy",
+      "careers": "Careers",
+      "press": "Press",
+      "shop": "All Products",
+      "roasted": "Roasted Makhana",
+      "flavored": "Flavored Varieties",
+      "premium": "Premium Collection",
+      "contact": "Contact Us",
+      "faq": "FAQ",
+      "trackOrder": "Track Order",
+      "returns": "Returns",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "refund": "Refund Policy",
+      "shipping": "Shipping Policy"
+    },
+    "features": {
+      "freeShipping": "Free Shipping",
+      "freeShippingDesc": "On orders above ₹500",
+      "qualityGuarantee": "Quality Guarantee",
+      "qualityGuaranteeDesc": "Premium quality assured",
+      "naturalIngredients": "Natural Ingredients",
+      "naturalIngredientsDesc": "No artificial preservatives",
+      "healthyChoice": "Healthy Choice",
+      "healthyChoiceDesc": "High protein, low calories"
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Get the latest offers and health tips",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    },
+    "copyright": "All rights reserved.",
+    "madeWith": "Made with",
+    "inIndia": "in India",
+    "contact": {
+      "title": "Get in Touch",
+      "email": "hello@namamy.com",
+      "phone": "+91 98765 43210",
+      "address": "123 Business Park, Mumbai, India",
+      "hours": "Mon-Sat: 9AM-6PM IST"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Our Story",
+      "subtitle": "From the lotus farms of Bihar to your table, discover how we're revolutionizing healthy snacking with premium makhana."
+    },
+    "stats": {
+      "happyCustomers": "Happy Customers",
+      "qualityAssured": "Quality Assured",
+      "farmersSupported": "Farmers Supported",
+      "healthySnacksDelivered": "Healthy Snacks Delivered"
+    },
+    "story": {
+      "title": "How It All Started",
+      "paragraph1": "Our journey began in 2020 with a simple mission: to bring the finest quality makhana from the traditional lotus farms of Bihar to health-conscious consumers across India.",
+      "paragraph2": "We recognized that makhana, also known as fox nuts, was an incredibly nutritious superfood that deserved better recognition. Rich in protein, low in calories, and packed with essential minerals, these lotus seeds have been a treasured snack in Indian households for centuries.",
+      "paragraph3": "Today, we work directly with local farmers, ensuring fair trade practices while maintaining the highest quality standards. Every batch of Namamy makhana is carefully selected, processed, and roasted to perfection to deliver the ultimate snacking experience."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide premium quality, healthy and delicious makhana snacks while supporting local farmers and promoting sustainable agriculture practices."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become India's most trusted brand for healthy snacking, inspiring people to make better food choices for a healthier lifestyle."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide everything we do",
+      "quality": "Quality First",
+      "qualityDesc": "We never compromise on quality, from sourcing to packaging",
+      "sustainability": "Sustainability",
+      "sustainabilityDesc": "Supporting sustainable farming and eco-friendly practices",
+      "health": "Health & Wellness",
+      "healthDesc": "Promoting healthy eating habits through nutritious snacks",
+      "community": "Community Support",
+      "communityDesc": "Empowering local farmers and supporting rural communities"
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "subtitle": "Key milestones in our growth story",
+      "founded": "Company Founded",
+      "foundedDesc": "Started with a vision to bring premium makhana to every household",
+      "firstProduct": "First Product Launch",
+      "firstProductDesc": "Launched our signature roasted makhana with traditional flavors",
+      "expansion": "Product Expansion",
+      "expansionDesc": "Introduced flavored varieties and premium gift collections",
+      "milestone": "50,000+ Customers",
+      "milestoneDesc": "Reached a major milestone of serving over 50,000 happy customers",
+      "innovation": "Innovation & Growth",
+      "innovationDesc": "Continuing to innovate with new flavors and sustainable packaging"
+    },
+    "certifications": {
+      "title": "Quality Certifications",
+      "subtitle": "Trusted by authorities, loved by customers"
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Meet the passionate people behind Namamy",
+      "dedication": "Dedicated Team",
+      "description": "Our team is committed to bringing you the best quality makhana while supporting farmers and communities."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "Have questions about our products or need support? We're here to help! Reach out to us through any of the channels below."
+    },
+    "methods": {
+      "email": "Email Us",
+      "emailDesc": "Get detailed responses to your queries",
+      "sendEmail": "Send Email",
+      "phone": "Call Us",
+      "phoneDesc": "Speak directly with our support team",
+      "callNow": "Call Now",
+      "whatsapp": "WhatsApp",
+      "whatsappDesc": "Quick responses via WhatsApp",
+      "chatWhatsApp": "Chat on WhatsApp"
+    },
+    "office": {
+      "address": "Our Address",
+      "hours": "Business Hours",
+      "mapPlaceholder": "Interactive map coming soon"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "success": {
+        "title": "Message Sent!",
+        "message": "Thank you for contacting us. We'll get back to you within 24 hours."
+      },
+      "fields": {
+        "category": "Category",
+        "name": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "subject": "Subject",
+        "message": "Message"
+      },
+      "categories": {
+        "generalInquiry": "General Inquiry",
+        "orderSupport": "Order Support",
+        "productQuestion": "Product Question",
+        "bulkOrder": "Bulk Order",
+        "partnership": "Partnership"
+      },
+      "placeholders": {
+        "name": "Enter your full name",
+        "email": "Enter your email address",
+        "phone": "Enter your phone number (optional)",
+        "subject": "What is this regarding?",
+        "message": "Please describe your inquiry in detail..."
+      },
+      "validation": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "subjectRequired": "Subject is required",
+        "messageRequired": "Message is required",
+        "messageMinLength": "Message must be at least 10 characters long",
+        "phoneInvalid": "Please enter a valid phone number",
+        "messageCharCount": "{count} characters"
+      },
+      "submitting": "Sending...",
+      "submit": "Send Message",
+      "privacy": "Your information is secure and will never be shared with third parties."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Quick answers to common questions",
+      "orderQuestions": "How can I track my order?",
+      "orderAnswers": "You can track your order using the order ID sent to your email, or contact our support team for assistance.",
+      "productQuestions": "Are your products organic?",
+      "productAnswers": "Yes, all our makhana products are made from organically grown lotus seeds without any artificial preservatives.",
+      "shippingQuestions": "What are your shipping charges?",
+      "shippingAnswers": "We offer free shipping on orders above ₹500. For orders below ₹500, shipping charges apply based on location.",
+      "returnQuestions": "What is your return policy?",
+      "returnAnswers": "We accept returns within 7 days of delivery for unopened products. Contact us for return instructions.",
+      "moreHelp": "Need more help?",
+      "viewAll": "View All FAQs"
+    }
+  },
+  "checkout": {
+    "title": "Checkout",
+    "subtitle": "Complete your order securely",
+    "emptyCart": "Your cart is empty",
+    "emptyCartDesc": "Add some products to continue",
+    "continueShopping": "Continue Shopping",
+    "steps": {
+      "shipping": "Shipping",
+      "payment": "Payment",
+      "review": "Review & Place Order"
+    },
+    "shipping": {
+      "title": "Shipping Information",
+      "selectAddress": "Select Delivery Address",
+      "newAddress": "Add New Address",
+      "addNewAddress": "Add New Address",
+      "continueToPayment": "Continue to Payment"
+    },
+    "payment": {
+      "title": "Payment Method",
+      "selectMethod": "Select Payment Method",
+      "cardDetails": "Card Details",
+      "cardNumber": "Card Number",
+      "expiryDate": "Expiry Date",
+      "cvv": "CVV",
+      "nameOnCard": "Name on Card",
+      "upi": "UPI Payment",
+      "upiDetails": "UPI Details",
+      "upiId": "UPI ID",
+      "netbanking": "Net Banking",
+      "wallet": "Digital Wallet",
+      "cod": "Cash on Delivery",
+      "codSelected": "Cash on Delivery Selected",
+      "codDescription": "You will pay when your order is delivered to your doorstep.",
+      "redirectMessage": "You will be redirected to complete the payment.",
+      "securePayment": "Secure Payment",
+      "secureDescription": "Your payment information is encrypted and secure.",
+      "processing": "Processing...",
+      "continue": "Continue to Review"
+    },
+    "review": {
+      "title": "Review Your Order",
+      "orderItems": "Order Items",
+      "quantity": "Quantity",
+      "shippingAddress": "Shipping Address",
+      "paymentMethod": "Payment Method",
+      "termsAgree": "I agree to the Terms & Conditions and Privacy Policy",
+      "placeOrder": "Place Order",
+      "processing": "Processing Order..."
+    },
+    "orderSummary": {
+      "title": "Order Summary",
+      "subtotal": "Subtotal",
+      "discount": "Discount",
+      "shipping": "Shipping",
+      "tax": "Tax (GST)",
+      "total": "Total",
+      "free": "FREE",
+      "savings": "You saved ₹{amount}!",
+      "freeShipping": "You got free shipping!"
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalidPincode": "Please enter a valid 6-digit PIN code",
+      "invalidPhone": "Please enter a valid phone number"
+    },
+    "security": {
+      "sslEncryption": "SSL Encrypted & Secure",
+      "freeShipping": "Free Shipping Above ₹500",
+      "fastDelivery": "Fast 2-5 Day Delivery"
+    },
+    "common": {
+      "back": "Back"
+    }
+  },
+  "orderConfirmation": {
+    "title": "Order Placed Successfully!",
+    "subtitle": "Thank you for your order. We'll send you confirmation details soon.",
+    "orderNumber": "Order Number",
+    "orderDetails": {
+      "title": "Order Details",
+      "quantity": "Quantity",
+      "total": "Total"
+    },
+    "delivery": {
+      "title": "Delivery Status",
+      "orderPlaced": "Order Placed",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "estimatedDelivery": "Estimated Delivery"
+    },
+    "shippingAddress": {
+      "title": "Shipping Address",
+      "phone": "Phone"
+    },
+    "paymentInfo": {
+      "title": "Payment Information",
+      "paidOn": "Paid on"
+    },
+    "actions": {
+      "trackOrder": "Track Order",
+      "downloadInvoice": "Download Invoice",
+      "contactSupport": "Contact Support",
+      "continueShopping": "Continue Shopping"
+    },
+    "whatsNext": {
+      "title": "What happens next?",
+      "processing": "We'll process your order within 24 hours",
+      "shipping": "Your order will be shipped within 2-3 days",
+      "delivery": "You'll receive your order in 2-5 business days"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your account to continue",
+      "email": "Email Address",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot Password?",
+      "signIn": "Sign In",
+      "signingIn": "Signing In...",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up here",
+      "orContinueWith": "Or continue with",
+      "google": "Continue with Google",
+      "errors": {
+        "invalidCredentials": "Invalid email or password",
+        "loginFailed": "Login failed. Please try again."
+      }
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join the Namamy family for healthy snacking",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number (Optional)",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "createAccount": "Create Account",
+      "creatingAccount": "Creating Account...",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in here",
+      "terms": "I agree to the Terms & Conditions and Privacy Policy",
+      "newsletter": "Subscribe to our newsletter for offers and updates",
+      "orContinueWith": "Or continue with",
+      "google": "Continue with Google",
+      "errors": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "phoneInvalid": "Please enter a valid phone number",
+        "passwordRequired": "Password is required",
+        "passwordMinLength": "Password must be at least 6 characters",
+        "confirmPasswordRequired": "Please confirm your password",
+        "passwordMismatch": "Passwords do not match",
+        "termsRequired": "Please accept the terms and conditions",
+        "signupFailed": "Account creation failed. Please try again."
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "welcomeMessage": "Here's what's happening with your account today.",
+    "memberSince": "Member since",
+    "loyaltyPoints": "Loyalty Points",
+    "menu": {
+      "overview": "Overview",
+      "orders": "My Orders",
+      "wishlist": "Wishlist",
+      "addresses": "Addresses",
+      "profile": "Profile Settings",
+      "notifications": "Notifications",
+      "support": "Help & Support",
+      "logout": "Logout"
+    },
+    "overview": {
+      "totalOrders": "Total Orders",
+      "totalSpent": "Total Spent",
+      "loyaltyPoints": "Loyalty Points",
+      "wishlistItems": "Wishlist Items",
+      "recentOrders": "Recent Orders",
+      "viewAll": "View All",
+      "quickActions": "Quick Actions",
+      "trackOrder": "Track an Order",
+      "viewWishlist": "View Wishlist",
+      "updateProfile": "Update Profile",
+      "shopNow": "Shop Now"
+    },
+    "loyalty": {
+      "title": "Loyalty Rewards",
+      "description": "Earn points with every purchase and unlock exclusive rewards",
+      "currentPoints": "Current Points",
+      "nextReward": "Points to Next Reward"
+    },
+    "orders": {
+      "title": "Order History",
+      "filterByStatus": "Filter by Status",
+      "noOrders": "No Orders Yet",
+      "noOrdersDesc": "You haven't placed any orders yet. Start shopping to see your order history here.",
+      "startShopping": "Start Shopping",
+      "orderNumber": "Order",
+      "date": "Date",
+      "items": "Items",
+      "total": "Total",
+      "estimatedDelivery": "Est. Delivery",
+      "deliveredOn": "Delivered On",
+      "viewDetails": "View Details",
+      "trackOrder": "Track Order",
+      "downloadInvoice": "Download Invoice",
+      "reorder": "Reorder"
+    },
+    "wishlist": {
+      "title": "My Wishlist",
+      "empty": "Your wishlist is empty",
+      "emptyDesc": "Save your favorite products here to easily find them later.",
+      "browsProducts": "Browse Products",
+      "items": "items",
+      "new": "New",
+      "outOfStock": "Out of Stock",
+      "addToCart": "Add to Cart",
+      "addedOn": "Added on"
+    }
+  },
+  "forms": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "address": "Address",
+    "addressLine1": "Address Line 1",
+    "addressLine2": "Address Line 2 (Optional)",
+    "city": "City",
+    "state": "State",
+    "zipCode": "PIN Code",
+    "country": "Country",
+    "landmark": "Landmark (Optional)",
+    "message": "Message",
+    "subject": "Subject",
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidPhone": "Please enter a valid phone number",
+    "passwordMismatch": "Passwords do not match",
+    "minLength": "Minimum {count} characters required",
+    "maxLength": "Maximum {count} characters allowed",
+    "selectOption": "Please select an option",
+    "uploadFile": "Upload File",
+    "dragDropFile": "Drag and drop files here or click to browse"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "validation": "Please check the form for errors.",
+    "unauthorized": "You need to login to access this page.",
+    "forbidden": "You don't have permission to access this resource.",
+    "notFound": "The requested resource was not found.",
+    "serverError": "Server error. Please try again later.",
+    "paymentFailed": "Payment failed. Please try again.",
+    "stockUnavailable": "Sorry, this item is currently out of stock."
+  },
+  "success": {
+    "profileUpdated": "Profile updated successfully",
+    "passwordChanged": "Password changed successfully",
+    "addressAdded": "Address added successfully",
+    "reviewSubmitted": "Review submitted successfully",
+    "newsletterSubscribed": "Successfully subscribed to newsletter",
+    "messagesSent": "Message sent successfully"
+  }
+}

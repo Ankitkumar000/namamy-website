@@ -1,0 +1,29 @@
+{
+  "shopPageOnly": {
+    "customization": {
+      "theme": "light",
+      "showPromoBanner": true,
+      "featuredCategories": [
+        "roasted",
+        "flavored",
+        "premium"
+      ],
+      "productsPerPage": 12,
+      "defaultSortBy": "newest"
+    },
+    "filters": {
+      "priceRange": {
+        "min": 0,
+        "max": 1000
+      },
+      "categories": [],
+      "availability": "all"
+    },
+    "layout": {
+      "viewMode": "grid",
+      "showFilters": true,
+      "showSortOptions": true
+    }
+  },
+  "updatedAt": "2025-07-31T10:00:00.000Z"
+}

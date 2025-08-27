@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="makhana" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <!-- Makhana seed shape -->
+      <g transform="translate(20,20)" opacity="0.1">
+        <ellipse cx="0" cy="0" rx="8" ry="12" fill="#8B4513" transform="rotate(15)"/>
+        <ellipse cx="0" cy="0" rx="6" ry="10" fill="#D2B48C" transform="rotate(15)"/>
+        <circle cx="0" cy="-3" r="1.5" fill="#8B4513"/>
+        <circle cx="0" cy="3" r="1.5" fill="#8B4513"/>
+      </g>
+      <!-- Additional smaller seeds -->
+      <g transform="translate(10,10)" opacity="0.05">
+        <ellipse cx="0" cy="0" rx="4" ry="6" fill="#8B4513" transform="rotate(45)"/>
+        <ellipse cx="0" cy="0" rx="3" ry="5" fill="#D2B48C" transform="rotate(45)"/>
+      </g>
+      <g transform="translate(30,30)" opacity="0.05">
+        <ellipse cx="0" cy="0" rx="4" ry="6" fill="#8B4513" transform="rotate(-30)"/>
+        <ellipse cx="0" cy="0" rx="3" ry="5" fill="#D2B48C" transform="rotate(-30)"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="200" height="200" fill="url(#makhana)"/>
+</svg>
