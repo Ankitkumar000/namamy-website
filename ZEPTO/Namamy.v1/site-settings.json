@@ -1,0 +1,10 @@
+{
+  "isComingSoon": false,
+  "shopOnlyComingSoon": true,
+  "comingSoonMessage": "Your site is hidden from visitors behind a \"Coming soon\" landing page until it's ready for viewing.",
+  "comingSoonTitle": "Coming Soon",
+  "allowedPaths": [
+    "/admin"
+  ],
+  "updatedAt": "2025-08-27T00:09:57.547Z"
+}
