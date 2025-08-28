@@ -65,8 +65,7 @@ backups/
 ZEPTO/
 ../.DS_Store
 
-# Lock files
-package-lock.json
+# Lock files  
 yarn.lock
 
 # Asset files that are too large
