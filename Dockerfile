@@ -45,8 +45,8 @@ ENV NEXT_TELEMETRY_DISABLED=1
 RUN addgroup --system --gid 1001 namamy
 RUN adduser --system --uid 1001 nextjs
 
-# Copy public directory from source (not builder since standalone doesn't include it)
-COPY --chown=nextjs:namamy ./public ./public
+# First copy public directory from source (before anything else)
+COPY --chown=nextjs:namamy public ./public
 
 # Set the correct permission for prerender cache
 RUN mkdir .next
