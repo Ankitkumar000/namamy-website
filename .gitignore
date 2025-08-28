@@ -44,8 +44,9 @@ temp_*
 *.tmp
 *.temp
 
-# Uploads
-public/uploads/
+# Uploads (keep .gitkeep files)
+public/images/products/uploads/*
+!public/images/products/uploads/.gitkeep
 uploads/
 
 # Database
