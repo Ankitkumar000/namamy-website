@@ -25,8 +25,8 @@ COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
 # Set production environment
-ENV NODE_ENV production
-ENV NEXT_TELEMETRY_DISABLED 1
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
 
 # Generate Prisma client
 RUN npx prisma generate
@@ -38,15 +38,15 @@ RUN npm run build
 FROM base AS runner
 WORKDIR /app
 
-ENV NODE_ENV production
-ENV NEXT_TELEMETRY_DISABLED 1
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
 
 # Create namamy user for security
 RUN addgroup --system --gid 1001 namamy
 RUN adduser --system --uid 1001 nextjs
 
-# Copy built application
-COPY --from=builder /app/public ./public
+# Copy public directory from source (not builder since standalone doesn't include it)
+COPY --chown=nextjs:namamy ./public ./public
 
 # Set the correct permission for prerender cache
 RUN mkdir .next
@@ -70,8 +70,8 @@ USER nextjs
 
 EXPOSE 3000
 
-ENV PORT 3000
-ENV HOSTNAME "0.0.0.0"
+ENV PORT=3000
+ENV HOSTNAME="0.0.0.0"
 
 # Health check for Coolify monitoring
 HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
