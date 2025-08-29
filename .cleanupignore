@@ -1,0 +1,23 @@
+# Files to keep for production deployment
+package.json
+package-lock.json
+next.config.js
+tailwind.config.js
+tsconfig.json
+postcss.config.js
+Dockerfile
+.env.example
+.dockerignore
+.gitignore
+
+# Core directories
+src/
+public/.gitkeep
+public/images/.gitkeep  
+public/images/products/uploads/.gitkeep
+prisma/schema.prisma
+i18n/
+messages/
+
+# Single deployment script (keep only the clean one)
+CLEAN_RESTART_VPS.sh
